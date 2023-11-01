@@ -84,6 +84,7 @@ p {
 font-size: 20px;
 text-align: left !important;
 font-size: 30px;
+line-height: 1.5;
 }
 
 .list_frame {
@@ -106,4 +107,22 @@ width: 97%;
 background-color: rgba(0, 0, 0, 0.5);
 width: 97%;
 margin: 0 auto;
+}
+
+a:visited {
+  color: rgb(37, 108, 240);
+}
+
+a:hover {
+  color: rgb(37, 108, 240);
+}
+
+.fremvisningsbilde {
+  height: 100px;
+  width: 100px;
+  border: outset rgb(37, 108, 240) 2px;
+}
+
+a:link {
+  color: #f2f2f2;
 }
