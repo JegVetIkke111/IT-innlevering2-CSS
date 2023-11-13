@@ -127,6 +127,23 @@ margin: 0 auto;
   border: outset rgb(37, 108, 240) 4px;
 }
 
+#bilde1 {
+  float:left;
+}
+
+#tekst1 {
+  float:right;
+  text-align: right !important;
+}
+
+#bilde2 {
+  float:right;
+}
+
+#tekst2{
+  float:left;
+}
+
 .bunntekst {
   padding-bottom: -10px;
 	padding-top: 10px;
@@ -138,20 +155,5 @@ margin: 0 auto;
   width: 97%;
   border: 4px solid rgb(37, 108, 240);; 
   border-bottom: none; 
-}
-
-#bilde1 {
-  float:left;
-}
-
-#tekst1 {
-  float:right;
-}
-
-#bilde2 {
-  float:right;
-}
-
-#tekst2{
-  float:left;
+  border-style: inset;
 }
