@@ -141,17 +141,17 @@ margin: 0 auto;
 }
 
 #bilde1 {
-  float:right;
+  float:left;
 }
 
 #tekst1 {
-  float:left;
+  float:right;
 }
 
 #bilde2 {
-  float:left;
+  float:right;
 }
 
 #tekst2{
-  float:right;
+  float:left;
 }
