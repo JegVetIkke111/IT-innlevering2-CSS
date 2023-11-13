@@ -140,3 +140,10 @@ margin: 0 auto;
   border-bottom: none; 
 }
 
+#bilde1 {
+  float:right;
+}
+
+#bilde2 {
+  float:left;
+}
