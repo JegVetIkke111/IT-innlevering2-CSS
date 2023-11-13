@@ -144,6 +144,14 @@ margin: 0 auto;
   float:right;
 }
 
+#tekst1 {
+  float:left;
+}
+
 #bilde2 {
   float:left;
+}
+
+#tekst2{
+  float:right;
 }
