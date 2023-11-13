@@ -154,6 +154,6 @@ margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.5);
   width: 97%;
   border: 4px solid rgb(37, 108, 240);; 
-  border-bottom: none !important; 
+  border-bottom: none; 
   border-style: inset;
 }
