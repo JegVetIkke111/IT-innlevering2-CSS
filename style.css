@@ -101,6 +101,7 @@ font-family: 'Inconsolata', monospace;
 .list {
 margin: 0 auto; 
 width: 97%; 
+background-color: rgba(0, 0, 0, 0.5);
 }
 
 .tekstboks {
