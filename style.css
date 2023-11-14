@@ -110,15 +110,15 @@ width: 97%;
 margin: 0 auto;
 }
 
-.listframe a:link {
+.kildelink:link {
   color: rgb(37, 108, 240);
 }
 
-.listframe a:visited {
+.kildelink:visited {
   color: rgb(37, 108, 240);
 }
 
-.listframe a:hover {
+.kildelink:hover {
   color: #f2f2f2;
 }
 
@@ -128,21 +128,12 @@ margin: 0 auto;
   border: outset rgb(37, 108, 240) 4px;
 }
 
-#bilde1 {
-  float:left;
+.høyre {
+  float: right;
 }
 
-#tekst1 {
-  float:right;
-  text-align: right !important;
-}
-
-#bilde2 {
-  float:right;
-}
-
-#tekst2{
-  float:left;
+.venstre {
+  float: left;
 }
 
 .bunntekst {
