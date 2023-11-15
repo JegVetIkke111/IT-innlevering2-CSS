@@ -1,24 +1,38 @@
+<!-- Deklarerer dokumenttypen og versjonen av HTML som brukes (HTML5) -->
 <!DOCTYPE html>
+<!-- Angir språket for nettsiden (Norsk) og danner også roten av HTML-dokumentet-->
 <html lang="no">
+<!--Danner beholder for metadata-->
 <head>
+    <!-- Definerer tegnsettet for dokumentet -->
     <meta charset="UTF-8">
+    <!-- Bidrar til å gjøre nettsiden mer responsiv -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Lenker til ekstern CSS-fil for styling -->
     <link rel="stylesheet" href="style.css">
+    <!-- Definerer ikonet som vises i nettlesertabben -->
     <link rel="icon" type="image/x-icon" href="https://media.discordapp.net/attachments/1158740468868325376/1164526915575611495/code_icon-icons.com_736201.png?ex=65438934&is=65311434&hm=040ffcdff77be5209c3099eff8b7332f2f5d885a27c8e85ce821c8bc18d3c5c2&=&width=600&height=600">
+    <!-- Lenker til Google Fonts for bruk av spesifikke skrifttyper -->
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <!-- Setter tittelen på nettsiden -->
     <title>CSS</title>
+<!--Slutter beholder for metadata-->
 </head>
+<!--Danner beholder for det synlige innholdet-->
 <body>
+    <!-- Navigasjonsmeny -->
     <div class="topnav">
         <a href="https://jegvetikke111.github.io/IT-innlevering2/">Hjem</a>
         <a href="https://jegvetikke111.github.io/IT-innlevering2-GitHub-og-VScode/">GitHub og VS Code</a>
         <a href="https://jegvetikke111.github.io/IT-innlevering2-HTML/">HTML</a>
         <a class="active" href="https://jegvetikke111.github.io/IT-innlevering2-CSS/">CSS</a>
     </div>
+    <!-- Header med bakgrunnsbilde og overskrift -->
     <div>
         <img src="https://media.discordapp.net/attachments/778579694262026281/1164516315537604688/1b1f92bf7d89c843b3a449246c225ac6.png?ex=65437f55&is=65310a55&hm=faffa59408607a378eca9b2c2ae457cc1009c35e9afb4bdfae93829c0f3bdce0&=&width=703&height=468" class="bakgrunnsbilde">
         <h1 class="hovedtittel">CSS</h1>
     </div>
+    <!-- Liste med lenker til seksjoner på nettsiden -->
     <div class="list">
         <ul class="listframe">
             <p>På denne nettsiden finner du:</p>
@@ -32,26 +46,37 @@
             <br>
         </ul>
     </div>
+    <!-- Seksjon om "Hva er CSS?"-->
     <h1 id="hvaCSS" class="overskrift">Hva er CSS?</h1>
+    <!-- Tekstboks som forklarer hva CSS er -->
     <div class="tekstboks">
         <p>CSS står for Cascading Style Sheets og er koden som står for å definere stilen på nettsiden, som inkluderer designet, layout og variasjoner i fremvisning basert på forskjellige enheter og skjermstørrelser. Det er mulig å velge mellom intern og ekstern CSS. Ved den interne versjonen, er CSS-koden lagt mellom start-taggen, &lt;style&gt; og slutt-taggen,&lt;/style&gt;. Style-elementet selv ligger mellom start-taggen, &lt;head&gt; og slutt-taggen, &lt;/head&gt;. Det er nemlig i mellom head-taggene det befinner seg metadata, som er data om HTML-dokumentet og blir ikke direkte vist frem på nettsiden. For å benytte seg av ekstern CSS, trenger man en fil som slutter på .css, som er skrevet om på GitHub- og VS Code-siden. Man må nemlig også her legge til noe i mellom head-taggene, som er &lt;link href=”{navnpåfil}.css” rel=”stylesheet”&gt;. Rel-attributet definerer forholdet mellom den eksterne filen og den gjeldende filen, mens href-attributet brukes til å spesifisere hvor filen befinner seg og hva den heter. Samtidig er det mulig å legge til CSS rett inn i HTML-elementene ved hjelp av style-attributet, der verdien er CSS-koden.</p>
     </div>
+    <!-- Seksjon om "Selektorer"-->
     <h1 class="overskrift" id="selektor">Selektorer</h1>
+    <!-- Tekstboks som forklarer hva selektorer er -->
     <div class="tekstboks">
         <p>Ett CSS-regelsett består av en selektor og deklarasjoner. Vi starter med selektorer, som brukes til å velge HTML element(er) du vil endre utseende på. Det finnes mye man kan velge mellom angående bruk av selektorer og det går an å legge til flere så lenge man separerer dem med komma. For eksempel kan man skrive inn kun navnet på elementet som gjør at stilen(e) man spesifiserer i deklarasjonen gjelder for alle av den typen element på siden, skrive inn navnet på en klasse (punktum før navn) eller id (hashtag før navn) for å gjøre endringer på spesifikt de, eller bruke universal selektoren, som er asterisk (*) og skaper en påvirkning på alle HTML-elementene på dokumentet.</p>
     </div>
+    <!-- Seksjon om "Deklarasjoner" -->
     <h1 class="overskrift" id="deklarasjon">Deklarasjoner</h1>
+    <!-- Tekstboks som forklarer hva deklarasjoner er -->
     <div class="tekstboks">
         <p>Videre innebærer deklarasjonene spesifikasjonen av den faktiske stylingen av elementene. Deklarasjonene består av egenskaper og deres verdier. Egenskapene kan blant annet være bakgrunnsfarge (background-color), størrelser (height og width), skrifttype (font-family) og mye annet. Det finnes faktisk over 100 forskjellige egenskaper du kan benytte deg av for å velge hva du vil endre på! Alle egenskaper må også ha sine egne verdier og for å separere egenskapene fra verdiene, brukes kolon. For bakgrunnsfargen er verdien en fargekode, som for eksempel kan bli oppgitt i hekskode eller RGB. Størrelsene har verdier med tall sammen med en enhet, slik som prosent eller piksler. Sist men ikke minst har vi skrifttype, som oppgis i god og gammel tekst. Etter verdien følger et semikolon som signaliserer slutten på deklarasjonen og er brukt for å separere den fra andre deklarasjoner. Samtidig er deklarasjonene omsluttet av to krøllparanteser som vender mot hverandre ({ }).</p>
     </div>
+    <!-- Seksjon om "Eksempler på CSS-kode" -->
     <h1 class="overskrift" id="eksempel">Eksempler på CSS-kode</h1>
     <div class="tekstboks">
+    <!-- Tekstboks som forklarer og viser til eksempler på CSS-kode med to bilder -->
         <p>Her er to eksempler på CSS-regelsett:</p>
         <p><img class="fremvisningsbilde venstre" src="https://media.discordapp.net/attachments/1158740468868325376/1174163735175254026/bilde.png?ex=65669831&is=65542331&hm=d8c62641f9b4be67e1aed33e8c21a8004df41f8851af2c027c420bcaf710b2e0&=&width=858&height=452">Her ser du selektoren p, som har den effekten at alle p-elementer (avsnitt) i dokumentet gjennomgår endringer i utseendet i samsvar med deklarasjonene. Den første deklarasjonen er "color" som egenskap, med verdien "#f2f2f2". Dette resulterer i en lys og nesten helt hvit farge på teksten i avsnittene over hele dokumentet. Den andre deklarasjonen er "text-align" som egenskap, med verdien "center". Dette har den effekten at all teksten i avsnittene justeres slik at den plasseres midtstilt. Til slutt har vi den tredje deklarasjonen, "font-size" som egenskap, og verdien "32px". Dette fører til at størrelsen på teksten i avsnittene blir satt til 32 piksler.</p>
         <p><img class="fremvisningsbilde høyre" src="https://media.discordapp.net/attachments/1158740468868325376/1169329850545340497/Skjermbilde_2023-10-30_223202.png?ex=65550249&is=65428d49&hm=4cef86c7a33fa4855fe25ae30e898344c4ce173b3b9d4e94cbb198384120640d&=&width=853&height=481">Her er selektoren en klasse som har fått navnet “hovedbilde”, som er synlig ved hjelp av punktumet forran navnet. Dette skaper da en endring etter det som står i deklarasjonen hos alle elementer som har “class=”hovedbilde”” som attribute. Først har vi “width” som egenskap og “20 cm” som tilsvarende verdi. Dette gjør at bredden til elementet blir 20 centimeter. Videre har vi “border” som egenskap og hele tre verdier: “2px”, “solid” og “#007bff”. Dette lager en kant rundt elementet som er to piksler bred, har en solid stil som er en enkel og ensfarget kant og har en blå farge. Til slitt har vi egenskapen “opacity” med verdien “0.5”. Dette gjør elementet halvt gjennomsiktig, da i dette tilfellet verdien 0 betyr helt gjennomsiktig og verdien 1 betyr helt synlig. </p>
     </div>
+    <!--Bunntekst med to lenker til kildekode-->
     <div>
         <p class="bunntekst">Laget av Christina | Her finner du <a class="kildelink" href="https://raw.githubusercontent.com/JegVetIkke111/IT-innlevering2-CSS/main/index.html" target="_blank">HTML</a> og <a class="kildelink" href="https://raw.githubusercontent.com/JegVetIkke111/IT-innlevering2-CSS/main/style.css" target="_blank">CSS</a> til nettsiden &#128279;</p>
     </div>
+<!--Slutter beholder for det synlige innholdet-->
 </body>
+<!--Her slutter dokumentet-->
 </html>
