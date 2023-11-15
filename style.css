@@ -58,7 +58,7 @@ body {
 
 /* Hovedtittel-stilen brukes på den ene og viktigste overskriften på siden */
 .hovedtittel {
-  position: absolute; /* Posisjonerer elementet relativt til sitt nærmeste posisjonerte overordnede element */
+  position: absolute; /* Elementet tegnes opp på en absolutt posisjon i forhold til et posisjonert element det er inni */
   font-size: 60px; /* Størrelsen på teksten */
   background-color: rgba(0, 0, 0, 0.842); /* Bakgrunnsfargen til overskriften */
   top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
