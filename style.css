@@ -50,10 +50,10 @@
 
 /* Body-stilen brukes på hele nettsidekroppen */
 body {
-  background-color: rgb(5, 15, 27); /* Bakgrunnsfargen til nettsiden */
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px); /*Legger til striper i bakgrunnen*/
-  margin: 0;
-  padding: 0;
+    background-color: rgb(5, 15, 27); /* Bakgrunnsfargen til nettsiden */
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px); /* Legger til striper i bakgrunnen */
+    margin: 0; /* Setter margin til 0 for body-elementet */
+    padding: 0; /* Setter padding til 0 for body-elementet */
 }
 
 /* Hovedtittel-stilen brukes på den ene og viktigste overskriften på siden */
